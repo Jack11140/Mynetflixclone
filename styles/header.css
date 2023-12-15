@@ -1,0 +1,58 @@
+.post-main img { 
+  width: 1200px;
+  height: 350px;
+}
+
+.Netflix-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.user-logo img {
+  width: 50px;
+  height: auto;
+}
+
+
+.Netflix-logo {
+  width: 50px; 
+  height: auto;
+}
+
+
+.post-main {
+  position: relative;
+}
+
+
+.Netflix-logo:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.user-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+}
+
+.post img {
+  margin-right: 10px;
+  max-width: 100%;
+}
+
+.post {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.post img:hover {
+  transform: scale(1.2);
+}
